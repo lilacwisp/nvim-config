@@ -3,5 +3,5 @@ return {
   -- these are normal snippets
 }, {
   -- these are autosnppets
-  s ({ trig = 'hello all' }, { t ( "'Hello, World!'" ) })
+  s ({ trig = 'hello all' }, { t "'Hello, World!'"  })
 }

@@ -1,8 +1,5 @@
 local miniclue = require 'mini.clue'
 
--- catch errors gracefully
-U.check_module 'user.vim.pack'
-
 -- defaults are assumed
 miniclue.setup {
   triggers = {

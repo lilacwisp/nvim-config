@@ -1,3 +1,3 @@
 return {}, {
-  s ({ trig = 'hello lua' }, { t ("print 'Hello, World!'") })
+  s ({ trig = 'hello lua' }, { t "print 'Hello, World!'" })
 }
