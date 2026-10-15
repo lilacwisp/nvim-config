@@ -8,5 +8,5 @@ pcall(require, 'user.vim')
 -- catch errors gracefully
 U.check_module 'user.vim.pack'
 
--- add code from a vim.pack plugin right here
+-- add code from any vim.pack plugin right here
 vim.cmd.colorscheme 'oxocarbon'
