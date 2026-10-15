@@ -10,7 +10,7 @@ TS.install {
   'typst'
 }
 
-vim.api.nvim_create_autocmd('FileType', {
+vim.api.nvim_create_autocmd ('FileType', {
   pattern = { 'bib', 'lua', 'tex', 'typst' },
-  callback = function() vim.treesitter.start() end
+  callback = function () vim.treesitter.start () end
 })

@@ -1,5 +1,5 @@
 -- native vimscript commands
-vim.cmd([[
+vim.cmd [[
 
   syntax on
 
@@ -19,11 +19,11 @@ vim.cmd([[
 
   set cursorline
   
-]])
+]]
 
 -- tweaks
-vim.cmd([[
+vim.cmd [[
 
   let g:tex_flavor="latex"
 
-]])
+]]
