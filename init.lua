@@ -3,7 +3,7 @@ vim.g.maplocalleader = ','
 
 _G.U = require 'user.utils'
 
-pcall(require, 'user.vim')
+pcall (require, 'user.vim')
 
 -- catch errors gracefully
 U.check_module 'user.vim.pack'
