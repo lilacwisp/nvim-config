@@ -1,5 +1,5 @@
 -- packages
-local function gh(x) return 'https://github.com/' .. x end
+local function gh (x) return 'https://github.com/' .. x end
 vim.pack.add {
   gh 'nvim-mini/mini.nvim',
   gh 'nyoom-engineering/oxocarbon.nvim',
