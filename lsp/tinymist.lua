@@ -3,9 +3,6 @@ return {
     exportPdf = 'onType',
     lint = {
       enabled = true
-    },
-    preview = {
-      refresh = 'onType'
     }
   }
 }
