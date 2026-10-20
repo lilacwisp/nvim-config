@@ -1,4 +1,3 @@
-local minipick = require 'mini.pick'
+local pick = require 'mini.pick'
 
--- defaults are assumed
-minipick.setup {}
+pick.setup {}

@@ -1,7 +1,6 @@
-local minibasics = require 'mini.basics'
+local basics = require 'mini.basics'
 
--- defaults are assumed
-minibasics.setup {
+basics.setup {
   options = {
     extra_ui = true
   },

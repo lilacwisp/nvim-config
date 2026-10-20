@@ -1,7 +1,6 @@
-local minifiles = require 'mini.files'
+local files = require 'mini.files'
 
--- defaults are assumed
-minifiles.setup {
+files.setup {
   windows = {
     preview = true
   }

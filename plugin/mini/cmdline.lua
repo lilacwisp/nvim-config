@@ -1,4 +1,3 @@
-local minicmdline = require 'mini.cmdline'
+local cmd = require 'mini.cmdline'
 
--- defaults are assumed
-minicmdline.setup {}
+cmd.setup {}

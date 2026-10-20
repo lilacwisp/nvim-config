@@ -1,7 +1,6 @@
-local minipairs = require 'mini.pairs'
+local pairs = require 'mini.pairs'
 
--- defaults are assumed
-minipairs.setup {
+pairs.setup {
   modes = {
     command = true,
     terminal = true
